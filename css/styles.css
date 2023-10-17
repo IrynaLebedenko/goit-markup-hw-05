@@ -648,6 +648,7 @@ color: #2E2F42;
 
 .model-form {
 margin-bottom: 8px;
+gap: 24px;
 }
 
 .modal-input {
