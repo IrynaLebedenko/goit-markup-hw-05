@@ -787,9 +787,9 @@ fill: transparent;
 }
 
 .modal-checkbox-input:checked + .checkbox-text>span {
-  background-color: rgba(64, 75, 191, 1);
+  background-color: #404bbf; 
   fill: #F4F4FD; 
-  bottom: none;
+  border: none;
 }
 .span {
     display: inline-flex; 
