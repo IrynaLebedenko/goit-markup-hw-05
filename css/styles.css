@@ -560,6 +560,7 @@ margin-bottom: 16px;
 
 .form {
     display: flex;
+    gap: 24px;
 }
 
 .form-label {  
@@ -768,6 +769,8 @@ gap: 24px;
 }
 
 .checkbox-text {
+    display: flex;
+    align-items: center;
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
@@ -780,8 +783,23 @@ text-align: left;
     text-decoration: underline;
 }
 
-.modal-checkbox-input {
-    visibility: hidden;
+.checkbox-text span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+height: 16px;
+top: 20px;
+left: 20px;
+border-radius: 2px;
+border: 1px solid rgba(46, 47, 66, 0.4);
+margin-right: 8px;
+fill: transparent;
+}
+
+.modal-checkbox-input + .checkbox-text span {
+  background-color: rgba(64, 75, 191, 1);
+  fill: #FFFFFF;
 }
 .span {
     width: 16px;
