@@ -667,7 +667,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input::placeholder {
-color #ffffff; 
+color: #ffffff; 
 }
 
 .modal-input:focus {
@@ -785,6 +785,7 @@ border: none;
 }
 
 .span {
+display: inline-flex;
 fill: transparent;
 width: 16px;
 height: 16px;
