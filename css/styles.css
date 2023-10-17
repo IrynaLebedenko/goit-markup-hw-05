@@ -756,7 +756,7 @@ color: rgba(77, 90, 229, 1);
 text-decoration: underline;
 }
 
-.checkbox-text span {
+.checkbox-text .modal-span {
 display: flex;
 align-items: center;
 justify-content: center;
