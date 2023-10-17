@@ -683,11 +683,6 @@ fill: rgb(77, 90, 229);
 margin-bottom: 24px;
 }
 
-.modal-checkbox-input {
-visibility: hidden;
-
-}
-
 .modal-text {
 width: 100%;
 height: 120px;
