@@ -761,10 +761,6 @@ color: rgba(77, 90, 229, 1);
 text-decoration: underline;
 }
 
-.span-a {
-margin: 4px;
-}
-
 .checkbox-text span {
 display: flex;
 align-items: center;
@@ -777,13 +773,13 @@ margin-right: 8px;
 fill: transparent;
 }
 
-.modal-checkbox-input:checked + .checkbox-text.span {
+.modal-checkbox-input:checked + .checkbox-text .modal-span {
 background-color: #404bbf; 
 fill: #F4F4FD; 
 border: none;
 }
 
-.span {
+.modal-span {
 display: inline-flex;
 align-items: center;
 justify-content: center;
