@@ -97,7 +97,7 @@ border-radius: 2px;
 
 }
 
-.current-header-link-item
+.current-header-link-item,
 .header-address {
     font-style: normal;
 }
@@ -501,6 +501,7 @@ margin-bottom: 16px;
 }
 
 .container-two-footer{
+    margin-right: auto;
 }
 
 .footer-social-link-list {
